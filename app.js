@@ -1,4 +1,4 @@
-// alert("This app is not storing any of your data.press OK to continue. ");
+alert("This app is not storing any of your data.press OK to continue. ");
 
 const dateOfNumber=document.querySelector('#dob');
 const luckyNumber=document.querySelector('#lucky-number');
