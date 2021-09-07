@@ -1,8 +1,10 @@
-alert("This app is not storing any of your data.press OK to continue. ");
+// alert("This app is not storing any of your data.press OK to continue. ");
 
 const dateOfNumber=document.querySelector('#dob');
 const luckyNumber=document.querySelector('#lucky-number');
 const button=document.querySelector('#btn');
+const noticeButton=document.querySelector('.notice-btn');
+const notice=document.querySelector('.notice');
 const displayMessage=document.querySelector('#message');
 
 function calculateSum(dob){
@@ -34,3 +36,6 @@ function checkListener(){
 }
 
 button.addEventListener('click',checkListener);
+noticeButton.addEventListener('click',function clickHandeler(){
+    notice.style.display="none";
+})

@@ -24,6 +24,23 @@
     margin: 1.5rem auto;
     padding: 0.5rem auto;
 }
+.notice{
+    margin: 0rem auto;
+    border: 1px dotted var(--primary-color);
+    padding: 1rem 0.5rem;
+}
+.notice .notice-text{
+    text-align: center;
+    font-weight: 600;
+}
+.notice-btn{
+    border: none;
+    padding: 0rem 0rem;
+    margin: 0rem auto;
+    text-align: end;
+    color: red;
+    text-decoration: underline;
+}
 label{
     font-weight: 800;
     font-size: larger;
